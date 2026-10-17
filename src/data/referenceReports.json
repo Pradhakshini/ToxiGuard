@@ -1,0 +1,108 @@
+{
+  "datasetVersion": "1.0",
+  "description": "ToxiGuard v1 source-linked example reports. These are curated summaries, not model predictions or medical advice.",
+  "compounds": {
+    "Caffeine": {
+      "smiles": "CN1C=NC2=C1C(=O)N(C(=O)N2C)C",
+      "formula": "C8H10N4O2",
+      "pubchemCid": 2519,
+      "properties": {
+        "molecularWeight": 194.19,
+        "logP": -0.1,
+        "tpsa": 61.8,
+        "hBondDonors": 0,
+        "hBondAcceptors": 6,
+        "rotatableBonds": 0
+      },
+      "toxicitySummary": "Caffeine is a central nervous system stimulant. Effects depend on amount consumed, speed of intake, individual sensitivity, medications and health conditions. Excess intake can cause anxiety, sleep disruption, tremor and a rapid or irregular heartbeat; very high exposure can cause severe poisoning.",
+      "severityContext": "The FDA says up to 400 mg per day is an amount not generally associated with negative effects for most adults, but this is not a guarantee for every person or situation. Highly concentrated caffeine products pose a different and greater risk.",
+      "pharmaceuticalRelevance": "Caffeine has stimulant effects and specific medical uses, including use in clinical care for apnea of prematurity. Suitability depends on the indication, formulation, dose and patient context.",
+      "limitations": "This is a source-based summary, not an assay result for the entered sample and not a model prediction. It does not calculate a toxicity score or assess individual safety.",
+      "sources": [
+        {
+          "title": "PubChem — Caffeine (CID 2519)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2519",
+          "supports": "Chemical identity and reference properties"
+        },
+        {
+          "title": "FDA — Spilling the Beans: How Much Caffeine Is Too Much?",
+          "url": "https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much",
+          "supports": "Dose-dependent effects and public health context"
+        },
+        {
+          "title": "NCBI Bookshelf — Caffeine",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK519490/",
+          "supports": "Pharmacology and medical-use context"
+        }
+      ]
+    },
+    "Aspirin": {
+      "smiles": "CC(=O)OC1=CC=CC=C1C(=O)O",
+      "formula": "C9H8O4",
+      "pubchemCid": 2244,
+      "properties": {
+        "molecularWeight": 180.16,
+        "logP": 1.2,
+        "tpsa": 63.6,
+        "hBondDonors": 1,
+        "hBondAcceptors": 4,
+        "rotatableBonds": 3
+      },
+      "toxicitySummary": "Aspirin has recognised therapeutic uses, but it can also cause serious adverse effects. The FDA identifies risks including stomach bleeding, bleeding in the brain and kidney failure. Risk depends on dose, duration, health conditions and other medicines.",
+      "severityContext": "The presence of adverse effects does not mean aspirin is always unsuitable. Its benefit-risk balance depends on the intended use and individual context. Structure and descriptors alone cannot estimate personal risk or determine a safe dose.",
+      "pharmaceuticalRelevance": "Aspirin is used for pain relief and, in selected clinical settings, to reduce the risk of certain cardiovascular events. Whether it is appropriate depends on the indication and patient-specific risks; this report is not a recommendation to start or change therapy.",
+      "limitations": "This is a source-based summary, not a newly performed toxicity assay or validated model prediction. It does not provide dosing advice.",
+      "sources": [
+        {
+          "title": "PubChem — Aspirin (CID 2244)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2244",
+          "supports": "Chemical identity and reference properties"
+        },
+        {
+          "title": "FDA — Aspirin: Questions and Answers",
+          "url": "https://www.fda.gov/drugs/safe-use-aspirin/aspirin-questions-and-answers",
+          "supports": "Therapeutic uses and prescribing context"
+        },
+        {
+          "title": "FDA — Aspirin for Reducing Your Risk of Heart Attack and Stroke",
+          "url": "https://www.fda.gov/drugs/safe-use-aspirin/aspirin-reducing-your-risk-heart-attack-and-stroke-know-facts",
+          "supports": "Serious adverse effects and benefit-risk context"
+        }
+      ]
+    },
+    "Acetaminophen": {
+      "smiles": "CC(=O)NC1=CC=C(O)C=C1",
+      "formula": "C8H9NO2",
+      "pubchemCid": 1983,
+      "properties": {
+        "molecularWeight": 151.16,
+        "logP": 0.5,
+        "tpsa": 49.3,
+        "hBondDonors": 2,
+        "hBondAcceptors": 2,
+        "rotatableBonds": 1
+      },
+      "toxicitySummary": "Acetaminophen (paracetamol) is widely used for pain and fever, but taking more than directed can cause severe liver injury, liver failure and death. Risk can also be affected by liver disease, alcohol use and accidentally taking multiple products containing acetaminophen.",
+      "severityContext": "The key toxicity concern highlighted by the FDA is liver injury following excessive exposure. This summary does not determine whether a particular exposure is toxic and must not be used to assess or manage a possible overdose.",
+      "pharmaceuticalRelevance": "Acetaminophen is used as an analgesic and antipyretic. It can be useful when used according to approved product directions, but its benefit-risk profile depends on appropriate use and patient context. This report is not dosing advice.",
+      "limitations": "This is a source-based summary, not a new experiment or validated prediction from ToxiGuard. It does not provide an individual risk estimate or treatment guidance.",
+      "sources": [
+        {
+          "title": "PubChem — Acetaminophen (CID 1983)",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/1983",
+          "supports": "Chemical identity and reference properties"
+        },
+        {
+          "title": "FDA — Acetaminophen",
+          "url": "https://www.fda.gov/drugs/safe-use-over-counter-pain-relievers-and-fever-reducers/acetaminophen",
+          "supports": "Overdose and liver injury safety information"
+        },
+        {
+          "title": "FDA — Acetaminophen prescribing information",
+          "url": "https://www.fda.gov/media/121203/download",
+          "supports": "Hepatic injury warnings"
+        }
+      ]
+    }
+  }
+}
