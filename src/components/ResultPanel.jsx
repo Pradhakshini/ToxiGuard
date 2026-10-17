@@ -154,7 +154,7 @@ function ResultContent({ result, type }) {
         <div className="metricGrid">
           <Metric label="Molecular weight" value={`${formatNumber(result.molecularWeight)} Da`} />
           <Metric label="LogP" value={formatNumber(result.logP)} />
-          <Metric label="TPSA" value={`${formatNumber(result.tpsa)} Å`} />
+          <Metric label="TPSA" value={`${formatNumber(result.tpsa)} Å²`} />
           <Metric label="HBD / HBA" value={`${result.hBondDonors ?? 0} / ${result.hBondAcceptors ?? 0}`} />
           <Metric label="Rotatable bonds" value={result.rotatableBonds ?? "—"} />
           <Metric label="Ring count" value={result.ringCount ?? "—"} />
