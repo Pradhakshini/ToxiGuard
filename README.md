@@ -1,4 +1,4 @@
-# ToxiGuard v0.3
+# ToxiGuard v0.1
 
 ToxiGuard is a research/educational in-silico toxicity screening prototype for small molecules and peptides.
 
